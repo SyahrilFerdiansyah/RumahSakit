@@ -1,0 +1,123 @@
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Nunito', sans-serif;
+    }
+    body {
+      display: flex;
+      height: 100vh;
+      background-color: #d2e2ff;
+    }
+    .sidebar {
+      width: 180px;
+      background-color: #a2d4f2;
+      padding: 20px 0;
+    }
+    .sidebar .logo {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .sidebar .logo img {
+      width: 100px;
+      height: 100px;
+    }
+    .sidebar .logo h2 {
+      font-size: 18px;
+      color: #267ba8;
+      margin-top: 5px;
+    }
+    .sidebar nav a {
+      display: block;
+      padding: 12px 20px;
+      color: black;
+      text-decoration: none;
+    }
+    .sidebar nav a.active, .sidebar nav a:hover {
+      background-color: #8fd3cc;
+      border-radius: 8px;
+    }
+    .main {
+      flex: 1;
+    }
+            .search-bar {
+            background-color: #d2e2ff;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .search-bar input {
+            padding: 10px;
+            border: none;
+            border-radius: 8px;
+            width: 200px;
+        }
+    .header {
+      background-color: #3dd0b2;
+      padding: 20px;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+    }
+    .content {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 20px;
+    }
+    .card {
+      background-color: #3dd0b2;
+     color: white;
+     padding: 30px;
+     border-radius: 12px;
+     flex: 1 1 300px;
+     max-width: 300px;
+     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+     position: relative;
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+    .card .number {
+      font-size: 32px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .card .icon {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      font-size: 32px;
+      opacity: 0.5;
+    }
+            .btn {
+            background-color: #3dd0b2;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #2bbfa4;
+        }
+                .btn-detail {
+            background-color: #3dd0b2;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 10px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .btn-detail:hover {
+            background-color: #2bbfa4;
+        }
