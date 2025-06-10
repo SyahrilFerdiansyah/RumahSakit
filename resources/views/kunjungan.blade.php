@@ -28,7 +28,7 @@
             <a href="{{ url('/dokter') }}">Dokter</a>
             <a href="{{ url('/tindakan') }}">Tindakan</a>
             <a href="{{ url('/kunjungan') }}" class="active">Kunjungan</a>
-            <a href="{{ url('/detail_tindakan') }}">Detail Kunjungan</a>
+            <a href="{{ url('/detail_tindakan') }}">Detail Tindakan</a>
 
         </nav>
     </div>
