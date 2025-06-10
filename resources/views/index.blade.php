@@ -35,22 +35,22 @@
   <div class="card">
     <h3>Jumlah Pasien</h3>
     <div class="number">{{ $jumlahPasien }}</div>
-    <div class="icon"><i class="fas fa-user-friends"></i></div>
+
   </div>
   <div class="card">
     <h3>Jumlah Dokter</h3>
     <div class="number">{{ $jumlahDokter }}</div>
-    <div class="icon"><i class="fas fa-user-md"></i></div>
+
   </div>
   <div class="card">
     <h3>Jumlah Kunjungan</h3>
     <div class="number">{{ $jumlahKunjungan }}</div>
-    <div class="icon"><i class="fas fa-chart-line"></i></div>
+
   </div>   
   <div class="card">
     <h3>Tindakan</h3>
     <div class="number">{{ $jumlahTindakan }}</div>
-    <div class="icon"><i class="fas fa-heartbeat"></i></div>
+
   </div>
 </div>
   
